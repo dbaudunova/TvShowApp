@@ -1,4 +1,4 @@
-package com.example.tvshowapp.ui
+package com.example.tvshowapp.ui.tv_show
 
 import android.util.Log
 import androidx.lifecycle.LiveData

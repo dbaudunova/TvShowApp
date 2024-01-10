@@ -1,7 +1,7 @@
 package com.example.tvshowapp.data.remote.model
 
 data class TvShowItem(
-    val id: Int,
-    val name: String,
-    val image: Image
+    val id: Int? = null,
+    val name: String? = null,
+    val image: Image? = null
 )

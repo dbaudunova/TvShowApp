@@ -65,4 +65,7 @@ dependencies {
 
     // Coil
     implementation("io.coil-kt:coil:2.5.0")
+
+    //View Binding Delegate
+    implementation 'com.github.kirich1409:viewbindingpropertydelegate-noreflection:1.5.9'
 }
