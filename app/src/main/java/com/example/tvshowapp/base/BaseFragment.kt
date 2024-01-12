@@ -12,8 +12,8 @@ abstract class BaseFragment<VM : ViewModel>(@LayoutRes layoutId: Int) : Fragment
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initViews()
         initObservers()
+        initViews()
     }
 
     open fun initObservers() {}

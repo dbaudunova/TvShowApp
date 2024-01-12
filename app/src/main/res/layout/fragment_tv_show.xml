@@ -48,13 +48,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/popular"
+                android:text="@string/actors"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_24sp"
                 android:textStyle="bold" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rv_popular"
+                android:id="@+id/rv_actors"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </LinearLayout>
@@ -72,13 +72,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/recently_added"
+                android:text="@string/streaming_schedule"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_24sp"
                 android:textStyle="bold" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rv_recently_added"
+                android:id="@+id/rv_streaming_scedule"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>

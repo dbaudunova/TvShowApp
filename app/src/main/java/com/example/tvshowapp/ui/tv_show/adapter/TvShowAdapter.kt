@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import coil.load
-import com.example.tvshowapp.data.remote.model.TvShowItem
+import com.example.tvshowapp.data.remote.model.tv_show.TvShowItem
 import com.example.tvshowapp.databinding.ItemTvShowBinding
 
 class TvShowAdapter : Adapter<TvShowAdapter.TvShowViewHolder>() {

@@ -7,4 +7,5 @@
     <dimen name="_200dp">200dp</dimen>
     <dimen name="_16dp">16dp</dimen>
     <dimen name="_24sp">24sp</dimen>
+    <dimen name="_16sp">16sp</dimen>
 </resources>
